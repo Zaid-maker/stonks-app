@@ -18,7 +18,7 @@ const UserDropdown = ({ user }: { user: User }) => {
   const router = useRouter();
 
   const handleSignOut = async () => {
-    return null;
+    return alert("Sign out function to be implemented");
   };
 
   return (
